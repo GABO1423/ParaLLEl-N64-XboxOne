@@ -4,7 +4,7 @@ This is a modified version of the [ParaLLEl-N64](https://github.com/libretro/par
 The main changes to the core are the following:
 
 - The radius used in the emulate_game_controller_via_libretro.c file is set to a value of 80, which limits the emulated analog stick range. This can have some negative impact on games, such as making it impossible to jump out of water in Super Mario 64. I changed this to a value of 100, which allows the analog stick to reach the full range of an N64 stick while still allowing for more subtle and slow movements.
-- A new ANGLE directory has been added, making it simple to build this core without needing to provide any additional files.
+- A new [ANGLE](https://github.com/GABO1423/ParaLLEl-N64-XboxOne/tree/main/ANGLE) directory has been added, making it simple to build this core without needing to provide any additional files.
 
 **Click here to read the original ParaLLEl-N64 README file.**
 
