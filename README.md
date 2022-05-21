@@ -32,4 +32,4 @@ Then use the `cd` command to navigate to where the code is located.
 
 **Step 3: Begin the build**
 
-Simply type `make` on MSYS2, press Enter, and watch it build! You should end up with a file called "mupen64plus_next_libretro.dll" if everything goes correctly.
+Simply type `make` on MSYS2, press Enter, and watch it build! You should end up with a file called "parallel_n64_libretro.dll" if everything goes correctly.
