@@ -827,7 +827,7 @@ else ifneq (,$(findstring win,$(platform)))
 	FORCE_GLES=1
 	GLES = 1
       INCFLAGS += -I$(ANGLE_DIR)/include
-      GL_LIB = -L$(ANGLE_DIR) -lGLESv2
+      GL_LIB = -L$(ANGLE_DIR)/lib/UWP -lGLESv2
    else
 	GL_LIB := -lopengl32
    endif   
