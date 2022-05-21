@@ -6,6 +6,8 @@ The main changes to the core are the following:
 - The radius used in the [emulate_game_controller_via_libretro.c](https://github.com/GABO1423/ParaLLEl-N64-XboxOne/blob/master/mupen64plus-core/src/plugin/emulate_game_controller_via_libretro.c#L324) file is set to a value of 80, which limits the emulated analog stick range. This can have some negative impact on games, such as making it impossible to jump out of water in Super Mario 64. I changed this to a value of 100, which allows the analog stick to reach the full range of an N64 stick while still allowing for more subtle and slow movements.
 - A new [ANGLE](https://github.com/GABO1423/ParaLLEl-N64-XboxOne/tree/master/ANGLE) directory has been added, making it simple to build this core without needing to provide any additional files.
 
+Besides the changes listed above, nothing else was changed from the ParaLLEl-N64 source code. Since ANGLE can be kind of a performance bottleneck, I do not recommend using this core outside of the intended use case of Xbox Series consoles with RetroArch installed.
+
 **Click [here](https://github.com/GABO1423/ParaLLEl-N64-XboxOne/blob/master/README-original.md) to read the original ParaLLEl-N64 README file.**
 
 # Build Instructions
