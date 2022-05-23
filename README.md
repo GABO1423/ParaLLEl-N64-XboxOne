@@ -1,5 +1,5 @@
 # ParaLLEl-N64-XboxOne
-This is a modified version of the [ParaLLEl-N64](https://github.com/libretro/parallel-n64) libretro core that is intended to be used with Xbox One and Series consoles. All credit goes to the libretro Team, and all of the [contributors](https://github.com/libretro/parallel-n64/graphs/contributors) behind the core, as well as [JustMeDaFaq](https://github.com/JustMeDaFaq) for the [ANGLE](https://github.com/google/angle) implementation.
+This is a modified version of the [ParaLLEl-N64](https://github.com/libretro/parallel-n64) libretro core that is intended to be used with Xbox One and Series consoles. All credit goes to the libretro Team, and all of the [contributors](https://github.com/libretro/parallel-n64/graphs/contributors) behind the core, [JustMeDaFaq](https://github.com/JustMeDaFaq) for the [ANGLE](https://github.com/google/angle) implementation, and [tunip3](https://github.com/tunip3) for the custom [ANGLE](https://github.com/Xbox-Homebrew/angle) version used in this core.
 
 The main changes to the core are the following:
 
